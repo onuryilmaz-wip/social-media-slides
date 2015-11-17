@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget xmlns:gap="http://phonegap.com/ns/1.0" id="me.onuryilmaz.social.media.slides" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Social Media Slides</name>
+  <description>
+        Presentation for social media links
+    </description>
+  <author email="mail@onuryilmaz.me" href="http://onuryilmaz.me">
+      Onur Yılmaz
+    </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="android-minSdkVersion" value="16"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+  
+    <gap:plugin name="cordova-plugin-device" source="npm" />
+    <gap:plugin name="cordova-plugin-console" source="npm" />
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
+    <gap:plugin name="cordova-plugin-statusbar" source="npm" />
+    <gap:plugin name="ionic-plugin-keyboard" source="npm" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+	
+</widget>
